@@ -1,9 +1,3 @@
 <?php
-	class PostController extends Controller
-	{
-		public function show()
-		{
-			return 'hello world';
-		}
-	}
+	Route::get('/user/all', [PostController::class, 'all']);
 ?>
